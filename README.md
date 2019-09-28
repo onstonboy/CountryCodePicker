@@ -1,8 +1,8 @@
 # CountryCodePicker
 
+[![](https://jitpack.io/v/onstonboy/CountryCodePicker.svg)](https://jitpack.io/#onstonboy/CountryCodePicker)
+
 This library provide user an simple country code picker.
-demo:
-![](demo_ccp.gif)
 
 To get a Git project into your build:
 
@@ -20,3 +20,7 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.onstonboy:CountryCodePicker:Tag'
 	}
+	
+	demo:
+
+![](demo_ccp.gif)
