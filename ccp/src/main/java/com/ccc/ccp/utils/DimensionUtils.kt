@@ -1,4 +1,4 @@
-package com.ccc.countrycodepicker.utils
+package com.ccc.ccp.utils
 
 import android.annotation.TargetApi
 import android.content.Context

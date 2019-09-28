@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':ccp'
 rootProject.name='CountryCodePicker'
