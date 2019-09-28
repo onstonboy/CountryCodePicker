@@ -20,7 +20,5 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.onstonboy:CountryCodePicker:Tag'
 	}
-	
-	demo:
-
+demo:
 ![](demo_ccp.gif)
