@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountryCodePicker">
+        <attr name="phoneCodeColor" format="color"/>
+        <attr name="phoneCodeSize" format="dimension"/>
+        <attr name="phoneCodeStyle" format="reference"/>
+        <attr name="showPhoneCode" format="boolean"/>
+        <attr name="flagHeight" format="dimension"/>
+        <attr name="flagWidth" format="dimension"/>
+        <attr name="langCode" format="string"/>
+    </declare-styleable>
+</resources>
