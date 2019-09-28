@@ -1,4 +1,4 @@
-package com.ccc.countrycodepicker
+package com.ccc.ccp
 
 import android.content.Context
 import android.graphics.Typeface
@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.ccc.countrycodepicker.utils.DimensionUtils
+import com.ccc.ccp.utils.DimensionUtils
 import java.util.*
 
 class CountryCodePicker : LinearLayout {
@@ -71,9 +71,14 @@ class CountryCodePicker : LinearLayout {
         mLanguageCode = languageCode
     }
 
-    fun refreshData() {
+    fun refreshDefaultData() {
         mCountries.clear()
         mCountries.addAll(Country.loadCountryDataFromXML(context, mLanguageCode))
+    }
+
+    fun updateData(countries: List<Country>) {
+        mCountries.clear()
+        mCountries.addAll(countries)
     }
 
     fun setCountry(nameCode: String) {

@@ -1,6 +1,5 @@
-package com.ccc.countrycodepicker
+package com.ccc.ccp
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -53,17 +52,18 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
         val manager = LinearLayoutManager(context)
         mView.recyclerView.layoutManager = manager
         mView.recyclerView.adapter = mAdapter
-        mAdapter.updateData(Country.loadCountryDataFromXML(context, Locale.getDefault().language))
+        mAdapter.updateData(Country.loadCountryDataFromXML(context, arguments?.getString("LanguageCode")?: Locale.getDefault().language))
         mAdapter.setOnItemClickListener(this)
     }
 
     companion object {
         var TAG: String = this::class.java.simpleName
 
-        fun getInstance(country: Country): CountryCodePickerFragment {
+        fun getInstance(country: Country, langCode: String): CountryCodePickerFragment {
             val fragment = CountryCodePickerFragment()
             val bundle = Bundle()
             bundle.putParcelable("Country", country)
+            bundle.putString("LanguageCode", langCode)
             fragment.arguments = bundle
             return fragment
         }

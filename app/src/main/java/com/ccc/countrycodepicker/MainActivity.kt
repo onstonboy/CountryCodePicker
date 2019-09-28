@@ -3,7 +3,10 @@ package com.ccc.countrycodepicker
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.ccc.ccp.Country
+import com.ccc.ccp.OnCountryPickedListener
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 
 class MainActivity : AppCompatActivity(), OnCountryPickedListener {
@@ -27,8 +30,9 @@ class MainActivity : AppCompatActivity(), OnCountryPickedListener {
     fun onPickerClick(view: View) {
         val country = mCountry ?: return
         val fm = supportFragmentManager
-        val newFragment = CountryCodePickerFragment.getInstance(country)
+        val newFragment =
+            com.ccc.ccp.CountryCodePickerFragment.getInstance(country, Locale.getDefault().language)
         newFragment.setOnCountryPickedListener(this)
-        newFragment.show(fm, CountryCodePickerFragment.TAG)
+        newFragment.show(fm, com.ccc.ccp.CountryCodePickerFragment.TAG)
     }
 }
