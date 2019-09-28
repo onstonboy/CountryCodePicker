@@ -9,7 +9,302 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="582ef460-b4eb-49b9-aadd-d0e6bd6ec778" name="Default Changelist" comment="" />
+    <list default="true" id="582ef460-b4eb-49b9-aadd-d0e6bd6ec778" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/ccp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/src/androidTest/java/com/ccc/ccp/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccp/src/test/java/com/ccc/ccp/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countrycodepicker2/countrycodepicker2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/Country.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/Country.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodePicker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodePicker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodePickerFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodePickerFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/OnCountryPickedListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/OnCountryPickedListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/utils/DimensionUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/utils/DimensionUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_afghanistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_afghanistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_aland.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_aland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_albania.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_albania.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_algeria.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_algeria.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_american_samoa.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_american_samoa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_andorra.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_andorra.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_angola.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_angola.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_anguilla.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_anguilla.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_antarctica.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_antarctica.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_antigua_and_barbuda.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_antigua_and_barbuda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_argentina.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_argentina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_armenia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_armenia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_aruba.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_aruba.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_australia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_australia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_austria.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_austria.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_azerbaijan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_azerbaijan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_bahamas.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_bahamas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_bahrain.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_bahrain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_bangladesh.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_bangladesh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_barbados.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_barbados.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_belarus.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_belarus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_belgium.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_belgium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_belize.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_belize.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_benin.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_benin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_bermuda.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_bermuda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_bhutan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_bhutan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_bolivia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_bolivia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_bosnia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_bosnia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_botswana.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_botswana.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_brazil.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_brazil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_british_indian_ocean_territory.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_british_indian_ocean_territory.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_british_virgin_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_british_virgin_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_brunei.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_brunei.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_bulgaria.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_bulgaria.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_burkina_faso.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_burkina_faso.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_burundi.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_burundi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_cambodia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_cambodia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_cameroon.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_cameroon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_canada.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_canada.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_cape_verde.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_cape_verde.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_cayman_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_cayman_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_central_african_republic.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_central_african_republic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_chad.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_chad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_chile.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_chile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_china.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_china.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_christmas_island.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_christmas_island.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_cocos.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_cocos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_colombia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_colombia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_comoros.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_comoros.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_cook_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_cook_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_costa_rica.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_costa_rica.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_cote_divoire.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_cote_divoire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_croatia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_croatia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_cuba.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_cuba.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_curacao.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_curacao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_cyprus.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_cyprus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_czech_republic.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_czech_republic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_democratic_republic_of_the_congo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_democratic_republic_of_the_congo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_denmark.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_denmark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_djibouti.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_djibouti.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_dominica.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_dominica.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_dominican_republic.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_dominican_republic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_ecuador.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_ecuador.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_egypt.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_egypt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_el_salvador.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_el_salvador.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_equatorial_guinea.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_equatorial_guinea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_eritrea.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_eritrea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_estonia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_estonia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_ethiopia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_ethiopia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_falkland_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_falkland_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_faroe_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_faroe_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_fiji.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_fiji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_finland.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_finland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_france.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_france.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_french_polynesia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_french_polynesia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_gabon.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_gabon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_gambia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_gambia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_georgia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_georgia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_germany.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_germany.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_ghana.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_ghana.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_gibraltar.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_gibraltar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_greece.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_greece.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_greenland.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_greenland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_grenada.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_grenada.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_guadeloupe.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_guadeloupe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_guam.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_guam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_guatemala.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_guatemala.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_guernsey.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_guernsey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_guinea.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_guinea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_guinea_bissau.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_guinea_bissau.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_guyana.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_guyana.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_guyane.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_guyane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_haiti.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_haiti.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_honduras.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_honduras.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_hong_kong.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_hong_kong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_hungary.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_hungary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_iceland.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_iceland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_india.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_india.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_indonesia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_indonesia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_iran.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_iran.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_iraq.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_iraq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_iraq_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_iraq_new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_ireland.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_ireland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_isleof_man.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_isleof_man.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_israel.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_israel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_italy.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_italy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_jamaica.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_jamaica.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_japan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_japan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_jersey.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_jersey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_jordan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_jordan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_kazakhstan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_kazakhstan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_kenya.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_kenya.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_kiribati.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_kiribati.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_kosovo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_kosovo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_kuwait.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_kuwait.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_kyrgyzstan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_kyrgyzstan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_laos.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_laos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_latvia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_latvia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_lebanon.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_lebanon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_lesotho.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_lesotho.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_liberia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_liberia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_libya.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_libya.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_liechtenstein.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_liechtenstein.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_lithuania.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_lithuania.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_luxembourg.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_luxembourg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_macao.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_macao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_macedonia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_macedonia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_madagascar.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_madagascar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_malawi.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_malawi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_malaysia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_malaysia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_maldives.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_maldives.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_mali.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_mali.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_malta.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_malta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_marshall_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_marshall_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_martinique.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_martinique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_mauritania.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_mauritania.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_mauritius.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_mauritius.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_mexico.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_mexico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_micronesia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_micronesia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_moldova.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_moldova.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_monaco.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_monaco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_mongolia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_mongolia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_montserrat.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_montserrat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_morocco.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_morocco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_mozambique.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_mozambique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_myanmar.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_myanmar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_namibia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_namibia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_nauru.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_nauru.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_nepal.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_nepal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_netherlands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_netherlands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_netherlands_antilles.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_netherlands_antilles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_new_caledonia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_new_caledonia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_new_zealand.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_new_zealand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_nicaragua.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_nicaragua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_niger.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_niger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_nigeria.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_nigeria.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_niue.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_niue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_norfolk_island.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_norfolk_island.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_north_korea.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_north_korea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_northern_mariana_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_northern_mariana_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_norway.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_norway.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_of_montenegro.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_of_montenegro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_oman.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_oman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_pakistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_pakistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_palau.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_palau.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_palestine.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_palestine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_panama.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_panama.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_papua_new_guinea.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_papua_new_guinea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_paraguay.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_paraguay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_peru.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_peru.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_philippines.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_philippines.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_pitcairn_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_pitcairn_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_poland.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_poland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_portugal.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_portugal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_puerto_rico.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_puerto_rico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_qatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_qatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_republic_of_the_congo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_republic_of_the_congo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_romania.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_romania.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_russian_federation.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_russian_federation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_rwanda.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_rwanda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_saint_barthelemy.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_saint_barthelemy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_saint_helena.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_saint_helena.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_saint_kitts_and_nevis.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_saint_kitts_and_nevis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_saint_lucia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_saint_lucia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_saint_martin.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_saint_martin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_saint_pierre.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_saint_pierre.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_saint_vicent_and_the_grenadines.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_saint_vicent_and_the_grenadines.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_samoa.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_samoa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_san_marino.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_san_marino.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_sao_tome_and_principe.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_sao_tome_and_principe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_saudi_arabia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_saudi_arabia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_senegal.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_senegal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_serbia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_serbia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_serbia_and_montenegro.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_serbia_and_montenegro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_seychelles.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_seychelles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_sierra_leone.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_sierra_leone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_singapore.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_singapore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_sint_maarten.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_sint_maarten.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_slovakia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_slovakia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_slovenia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_slovenia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_soloman_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_soloman_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_somalia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_somalia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_south_africa.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_south_africa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_south_georgia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_south_georgia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_south_korea.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_south_korea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_south_sudan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_south_sudan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_soviet_union.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_soviet_union.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_spain.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_spain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_sri_lanka.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_sri_lanka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_sudan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_sudan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_suriname.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_suriname.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_swaziland.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_swaziland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_sweden.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_sweden.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_switzerland.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_switzerland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_syria.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_syria.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_taiwan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_taiwan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_tajikistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_tajikistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_tanzania.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_tanzania.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_thailand.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_thailand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_tibet.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_tibet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_timor_leste.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_timor_leste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_togo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_togo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_tokelau.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_tokelau.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_tonga.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_tonga.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_transparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_trinidad_and_tobago.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_trinidad_and_tobago.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_tunisia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_tunisia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_turkey.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_turkey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_turkmenistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_turkmenistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_turks_and_caicos_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_turks_and_caicos_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_tuvalu.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_tuvalu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_uae.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_uae.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_uganda.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_uganda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_ukraine.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_ukraine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_united_kingdom.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_united_kingdom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_united_states_of_america.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_united_states_of_america.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_uruguay.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_uruguay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_us_virgin_islands.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_us_virgin_islands.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_uzbekistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_uzbekistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_vanuatu.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_vanuatu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_vatican_city.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_vatican_city.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_venezuela.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_venezuela.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_vietnam.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_vietnam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_wallis_and_futuna.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_wallis_and_futuna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_yemen.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_yemen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_zambia.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_zambia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_zimbabwe.png" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_zimbabwe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_country_code_picker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/layout/fragment_country_code_picker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_country_code_picker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/layout/item_country_code_picker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ccp_en.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/raw/ccp_en.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ccp_vi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/raw/ccp_vi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ccp/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,87 +330,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="84">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/MainActivity.kt">
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodeAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-              <folding>
-                <element signature="e#35#186#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-897">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_country_code_picker.xml">
-          <provider editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/res/values/dimens.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="52" column="43" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="43" />
-              <folding>
-                <element signature="e#363#377#0" expanded="true" />
-                <element signature="e#401#415#0" expanded="true" />
-                <element signature="e#1209#1223#0" expanded="true" />
-                <element signature="e#1797#1811#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodePickerFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="216">
+              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodeAdapter.kt">
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/utils/DimensionUtils.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="23" column="70" lean-forward="true" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-              <folding>
-                <element signature="e#35#243#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodePickerFragment.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-              <folding>
-                <element signature="e#35#373#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/OnCountryPickedListener.kt">
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/OnCountryPickedListener.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
               <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
@@ -124,28 +389,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodePicker.kt">
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodePicker.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="172">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
               <folding>
-                <element signature="e#1049#1111#0" expanded="true" />
-                <element signature="e#1995#2057#1" expanded="true" />
-                <element signature="e#4127#4189#0" expanded="true" />
-                <element signature="e#4234#4296#0" expanded="true" />
+                <element signature="e#21#389#0" expanded="true" />
+                <element signature="e#565#633#0" expanded="true" />
+                <element signature="e#904#966#0" expanded="true" />
+                <element signature="e#1001#1063#0" expanded="true" />
+                <element signature="e#1650#1718#1" expanded="true" />
+                <element signature="e#1855#1917#1" expanded="true" />
+                <element signature="e#2052#2114#1" expanded="true" />
+                <element signature="e#3767#3829#0" expanded="true" />
+                <element signature="e#3862#3924#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/Country.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="552" column="9" lean-forward="true" selection-start-line="552" selection-start-column="9" selection-end-line="552" selection-end-column="9" />
+              <folding>
+                <element signature="e#21#295#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/Country.kt">
+        <entry file="file://$PROJECT_DIR$/ccp/src/main/res/values/attrs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="e#35#240#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -155,11 +434,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="valueResourceFile" />
         <option value="Kotlin Class" />
         <option value="layoutResourceFile_vertical" />
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -172,6 +451,9 @@
       <find>loadCountryDataFromXML</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -180,18 +462,29 @@
         <option value="$PROJECT_DIR$/app/src/main/res/raw/ccp_english.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCode.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodePicker.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_country_code_picker.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/OnCountryPickedListener.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/Country.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_country_code_picker.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodeAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodePickerFragment.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/ccp/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/ccp/src/main/res/layout/fragment_country_code_picker.xml" />
+        <option value="$PROJECT_DIR$/ccp/src/main/res/layout/item_country_code_picker.xml" />
+        <option value="$PROJECT_DIR$/ccp/src/main/res/values/attrs.xml" />
+        <option value="$PROJECT_DIR$/ccp/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/ccp/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/utils/DimensionUtils.kt" />
+        <option value="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodePickerFragment.kt" />
+        <option value="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodePicker.kt" />
+        <option value="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodeAdapter.kt" />
       </list>
     </option>
   </component>
@@ -202,12 +495,13 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages AndroidView="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -224,7 +518,22 @@
               <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="countrycodepicker" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ccc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ccc" type="462c0819:PsiDirectoryNode" />
+              <item name="countrycodepicker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
@@ -239,13 +548,57 @@
             </path>
             <path>
               <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="raw" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="ccp" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
               <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="ccp" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ccp" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ccp" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ccc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ccp" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ccc" type="462c0819:PsiDirectoryNode" />
+              <item name="ccp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ccp" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ccc" type="462c0819:PsiDirectoryNode" />
+              <item name="ccp" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ccp" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ccp" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="CountryCodePicker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ccp" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
@@ -265,19 +618,30 @@
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5_API_24" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-09-28T03:04:32.815Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin.scripting" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ccp/src/main/res" />
+      <recent name="$PROJECT_DIR$/ccp/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/ccp/src/main/res/values" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.ccc.countrycodepicker.utils" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.ccc.countrycodepicker" />
+      <recent name="com.ccc.ccp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp" />
       <recent name="$PROJECT_DIR$/app/src/main/res/values" />
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
     </key>
@@ -374,7 +738,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21647818" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2197092" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -382,29 +746,29 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Structure" order="7" side_tool="true" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Debug" weight="0.32994923" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.24336794" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Logcat" order="2" weight="0.8037225" />
       <window_info anchor="bottom" id="GraphQL" order="3" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Android Profiler" order="7" />
-      <window_info anchor="right" id="Preview" weight="0.32956383" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32956383" />
     </layout>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodePicker.kt</url>
+          <url>file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodePicker.kt</url>
           <line>80</line>
           <properties />
           <option name="timeStamp" value="5" />
@@ -468,13 +832,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/org/xmlpull/v1/XmlPullParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -489,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/utils/DimensionUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -503,126 +853,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_aland.png">
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_aland.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/flag_afghanistan.png">
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/drawable-nodpi/flag_afghanistan.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/ccp_vi.xml">
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/raw/ccp_vi.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="1126" column="26" selection-start-line="1126" selection-start-column="12" selection-end-line="1126" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/ccp_en.xml">
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/raw/ccp_en.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="300" column="19" selection-start-line="300" selection-start-column="12" selection-end-line="300" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_country_code_picker.xml">
-      <provider editor-type-id="android-designer2" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/OnCountryPickedListener.kt">
+    <entry file="file://$PROJECT_DIR$/ccp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="123">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="52">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/Country.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#35#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodePicker.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="e#1049#1111#0" expanded="true" />
-            <element signature="e#1995#2057#1" expanded="true" />
-            <element signature="e#4127#4189#0" expanded="true" />
-            <element signature="e#4234#4296#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="483">
+          <caret line="23" column="40" selection-end-line="36" />
           <folding>
             <element signature="e#35#186#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_country_code_picker.xml">
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/layout/item_country_code_picker.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="52" column="43" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="43" />
+        <state relative-caret-position="374">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/layout/fragment_country_code_picker.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/utils/DimensionUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodePickerFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/OnCountryPickedListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodePicker.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
           <folding>
-            <element signature="e#363#377#0" expanded="true" />
-            <element signature="e#401#415#0" expanded="true" />
-            <element signature="e#1209#1223#0" expanded="true" />
-            <element signature="e#1797#1811#0" expanded="true" />
+            <element signature="e#21#389#0" expanded="true" />
+            <element signature="e#565#633#0" expanded="true" />
+            <element signature="e#904#966#0" expanded="true" />
+            <element signature="e#1001#1063#0" expanded="true" />
+            <element signature="e#1650#1718#1" expanded="true" />
+            <element signature="e#1855#1917#1" expanded="true" />
+            <element signature="e#2052#2114#1" expanded="true" />
+            <element signature="e#3767#3829#0" expanded="true" />
+            <element signature="e#3862#3924#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/CountryCodeAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="-897">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodeAdapter.kt">
+    <entry file="file://$PROJECT_DIR$/ccp/src/main/java/com/ccc/ccp/Country.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="23" column="70" lean-forward="true" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+        <state relative-caret-position="342">
+          <caret line="552" column="9" lean-forward="true" selection-start-line="552" selection-start-column="9" selection-end-line="552" selection-end-column="9" />
           <folding>
-            <element signature="e#35#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ccc/countrycodepicker/CountryCodePickerFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-          <folding>
-            <element signature="e#35#373#0" expanded="true" />
+            <element signature="e#21#295#0" expanded="true" />
           </folding>
         </state>
       </provider>

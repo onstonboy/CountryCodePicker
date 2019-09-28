@@ -1,4 +1,4 @@
-package com.ccc.countrycodepicker
+package com.ccc.ccp
 
 import android.content.Context
 import android.os.Parcelable
