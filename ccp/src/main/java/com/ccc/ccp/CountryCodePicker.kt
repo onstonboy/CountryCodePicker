@@ -84,14 +84,23 @@ class CountryCodePicker : LinearLayout {
 
     // Default country is Viet Nam
     fun getDefaultCountryPicked(): Country {
-        val countries = Country.loadCountryDataFromXML(context, mLanguageCode)
-        countries.find { it.nameCode == "vn" }?.let {
+        if (mCountries.isEmpty()) {
+            mCountries.addAll(Country.loadCountryDataFromXML(context, mLanguageCode))
+        }
+        mCountries.find { it.nameCode == "vn" }?.let {
             return it
         }
         if (mLanguageCode == "vi") {
             return Country("vn", "+84", "Việt Nam")
         }
         return Country("vn", "+84", "VietNam")
+    }
+
+    fun getCountry(nameCode: String): Country {
+        if (mCountries.isEmpty()) {
+            mCountries.addAll(Country.loadCountryDataFromXML(context, mLanguageCode))
+        }
+        return mCountries.find { it.nameCode == nameCode.toLowerCase(Locale.getDefault()) } ?: getDefaultCountryPicked()
     }
 
     fun getCountryPicked(): Country? {

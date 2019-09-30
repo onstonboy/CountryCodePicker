@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity(), OnCountryPickedListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        countryCodePicker.setCountryPicked(countryCodePicker.getDefaultCountryPicked())
+        countryCodePicker.setCountryPicked(countryCodePicker.getCountry(Locale.getDefault().country))
     }
 
     override fun onCountryPicked(country: Country) {
