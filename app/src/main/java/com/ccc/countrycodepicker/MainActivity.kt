@@ -8,27 +8,21 @@ import com.ccc.ccp.OnCountryPickedListener
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
-
 class MainActivity : AppCompatActivity(), OnCountryPickedListener {
-
-    private var mCountry: Country? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        mCountry = Country("vn", "+84", "Viet Nam")
-        val country = mCountry ?: return
-        countryCodePicker.setCountry(country.nameCode)
+        countryCodePicker.setCountryPicked(countryCodePicker.getDefaultCountryPicked())
     }
 
     override fun onCountryPicked(country: Country) {
-        mCountry = country
-        countryCodePicker.setCountry(country.nameCode)
+        countryCodePicker.setCountryPicked(country)
     }
 
     fun onPickerClick(view: View) {
-        val country = mCountry ?: return
+        val country = countryCodePicker.getCountryPicked() ?: return
         val fm = supportFragmentManager
         val newFragment =
             com.ccc.ccp.CountryCodePickerFragment.getInstance(country, Locale.getDefault().language)

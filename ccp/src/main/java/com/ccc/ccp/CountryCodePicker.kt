@@ -26,6 +26,7 @@ class CountryCodePicker : LinearLayout {
     private var mFlagHeight: Float = DimensionUtils.getDimensionWithDensity(context, R.dimen.dp_24)
     private var mFlagWidth: Float = DimensionUtils.getDimensionWithDensity(context, R.dimen.dp_24)
     private var mCountries = ArrayList<Country>()
+    private var mCountryPicked: Country? = null
 
     constructor(context: Context) : super(context)
 
@@ -81,8 +82,25 @@ class CountryCodePicker : LinearLayout {
         mCountries.addAll(countries)
     }
 
-    fun setCountry(nameCode: String) {
-        val country = mCountries.find { it.nameCode == nameCode } ?: return
+    // Default country is Viet Nam
+    fun getDefaultCountryPicked(): Country {
+        val countries = Country.loadCountryDataFromXML(context, mLanguageCode)
+        countries.find { it.nameCode == "vn" }?.let {
+            return it
+        }
+        if (mLanguageCode == "vi") {
+            return Country("vn", "+84", "Việt Nam")
+        }
+        return Country("vn", "+84", "VietNam")
+    }
+
+    fun getCountryPicked(): Country? {
+        return mCountryPicked
+    }
+
+    fun setCountryPicked(countryPicked: Country) {
+        mCountryPicked = countryPicked
+        val country = mCountries.find { it.nameCode == countryPicked.nameCode } ?: return
         mFlagImageView.setImageResource(Country.getFlagMasterResID(country))
         mPhoneCodeTextView.text = country.phoneCode
     }
