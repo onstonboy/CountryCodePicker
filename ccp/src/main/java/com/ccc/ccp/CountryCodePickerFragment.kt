@@ -1,6 +1,6 @@
 package com.ccc.ccp
 
-import android.app.Dialog
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -17,6 +17,20 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
     private lateinit var mAdapter: CountryCodeAdapter
 
     private var mOnCountryPicked: OnCountryPickedListener? = null
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        if (mOnCountryPicked == null && context is OnCountryPickedListener) {
+            mOnCountryPicked = context
+        }
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        if (mOnCountryPicked == null && parentFragment is OnCountryPickedListener) {
+            mOnCountryPicked = parentFragment as? OnCountryPickedListener
+        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -70,7 +84,12 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
         val manager = LinearLayoutManager(context)
         mView.recyclerView.layoutManager = manager
         mView.recyclerView.adapter = mAdapter
-        mAdapter.updateData(Country.loadCountryDataFromXML(context, arguments?.getString("LanguageCode")?: Locale.getDefault().language))
+        mAdapter.updateData(
+            Country.loadCountryDataFromXML(
+                context,
+                arguments?.getString("LanguageCode") ?: Locale.getDefault().language
+            )
+        )
         mAdapter.setOnItemClickListener(this)
     }
 
