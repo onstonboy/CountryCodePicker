@@ -24,4 +24,16 @@ object DimensionUtils {
         display.getSize(point)
         return point.y
     }
+
+    // DimensionsHelper.getDisplayWidth(context) => (display width in pixels)
+    fun getDisplayWidth(context: Context): Int {
+        val displayMetrics = context.resources.displayMetrics
+        return displayMetrics.widthPixels
+    }
+
+    // DimensionsHelper.getDisplayHeight(context) => (display height in pixels)
+    fun getDisplayHeight(context: Context): Int {
+        val displayMetrics = context.resources.displayMetrics
+        return displayMetrics.heightPixels
+    }
 }

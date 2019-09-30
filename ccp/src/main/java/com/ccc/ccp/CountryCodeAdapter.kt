@@ -22,7 +22,7 @@ class CountryCodeAdapter : RecyclerView.Adapter<CountryCodeAdapter.ViewHolder>()
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(mCountries[position], position)
+        holder.bind(mCountries[position])
     }
 
     fun setOnItemClickListener(onItemClick: OnItemClickListener?) {
@@ -35,14 +35,11 @@ class CountryCodeAdapter : RecyclerView.Adapter<CountryCodeAdapter.ViewHolder>()
         notifyDataSetChanged()
     }
 
-    fun setCountryPicked(country: Country) {
+    fun deleteCountry(country: Country) {
         val index = mCountries.indexOfFirst { it.nameCode == country.nameCode }
         if (index == -1) return
-        val countryPicked = mCountries[index]
         mCountries.removeAt(index)
         notifyItemRemoved(index)
-        mCountries.add(0, countryPicked)
-        notifyItemInserted(0)
     }
 
     class ViewHolder(
@@ -51,12 +48,7 @@ class CountryCodeAdapter : RecyclerView.Adapter<CountryCodeAdapter.ViewHolder>()
     ) : RecyclerView.ViewHolder(itemView) {
         private var mOnItemClick = onItemClick
 
-        fun bind(country: Country, position: Int) {
-            if (position == 0) {
-                itemView.horizontalLineView.visibility = View.VISIBLE
-            } else {
-                itemView.horizontalLineView.visibility = View.GONE
-            }
+        fun bind(country: Country) {
             itemView.flagImageView.setImageResource(Country.getFlagMasterResID(country))
             itemView.nameTextView.text = country.name
             itemView.phoneCodeTextView.text = country.phoneCode

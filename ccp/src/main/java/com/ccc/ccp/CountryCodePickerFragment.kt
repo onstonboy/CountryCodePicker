@@ -1,11 +1,13 @@
 package com.ccc.ccp
 
+import android.app.Dialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.ccc.ccp.utils.DimensionUtils
 import kotlinx.android.synthetic.main.fragment_country_code_picker.view.*
 import java.util.*
 
@@ -27,6 +29,15 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
         return mView
     }
 
+    override fun onResume() {
+        super.onResume()
+        val context = context ?: return
+        val params = dialog!!.window!!.attributes
+        params.width = (DimensionUtils.getDisplayWidth(context) / 1.15).toInt()
+        params.height = (DimensionUtils.getDisplayHeight(context) / 1.7).toInt()
+        dialog!!.window!!.attributes = params as android.view.WindowManager.LayoutParams
+    }
+
     override fun onDestroy() {
         mAdapter.setOnItemClickListener(null)
         super.onDestroy()
@@ -43,7 +54,14 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
 
     private fun initData() {
         val country = arguments?.getParcelable<Country>("Country") ?: return
-        mAdapter.setCountryPicked(country)
+        updateUI(country)
+        mAdapter.deleteCountry(country)
+    }
+
+    private fun updateUI(country: Country) {
+        mView.flagImageView.setImageResource(Country.getFlagMasterResID(country))
+        mView.nameTextView.text = country.name
+        mView.phoneCodeTextView.text = country.phoneCode
     }
 
     private fun initRecyclerView() {
