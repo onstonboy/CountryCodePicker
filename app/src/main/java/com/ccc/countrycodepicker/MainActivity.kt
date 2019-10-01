@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity(), OnCountryPickedListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        countryCodePicker.setLanguageCode(Locale.getDefault().language)
+        countryCodePicker.refreshDefaultData()
         countryCodePicker.setCountryPicked(countryCodePicker.getCountry(Locale.getDefault().country))
     }
 
