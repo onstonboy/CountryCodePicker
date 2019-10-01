@@ -59,7 +59,7 @@ data class Country(
             } catch (e: Exception) {
                 Log.e(TAG, "error", e)
             }
-            return countries
+            return countries.sortedBy { it.name }
         }
 
         fun getFlagMasterResID(countryCode: Country): Int {
