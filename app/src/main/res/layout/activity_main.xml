@@ -14,7 +14,6 @@
         android:layout_height="50dp"
         app:flagHeight="24dp"
         app:flagWidth="24dp"
-        app:langCode="vi"
         app:showPhoneCode="false"
         android:onClick="onPickerClick"
         />
