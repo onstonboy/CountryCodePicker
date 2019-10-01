@@ -20,13 +20,18 @@ data class Country(
 
         fun loadCountryDataFromXML(context: Context, languageCode: String): List<Country> {
             val countries = ArrayList<Country>()
+            val defaultLanguage = if (languageCode == "vi" || languageCode == "en") {
+                languageCode
+            } else {
+                "en"
+            }
             try {
                 val xmlFactoryObject = XmlPullParserFactory.newInstance()
                 val xmlPullParser = xmlFactoryObject.newPullParser()
                 val ins = context.resources.openRawResource(
                     context.resources
                         .getIdentifier(
-                            "ccp_$languageCode",
+                            "ccp_$defaultLanguage",
                             "raw", context.packageName
                         )
                 )
