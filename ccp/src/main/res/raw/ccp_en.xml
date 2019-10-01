@@ -20,12 +20,12 @@
             name="Antigua and Barbuda"
             english_name="Antigua and Barbuda"
             name_code="ag"
-            phone_code="1" />
+            phone_code="1268" />
         <country
             name="Anguilla"
             english_name="Anguilla"
             name_code="ai"
-            phone_code="1" />
+            phone_code="1264" />
         <country
             name="Albania"
             english_name="Albania"
@@ -55,7 +55,7 @@
             name="American Samoa"
             english_name="American Samoa"
             name_code="as"
-            phone_code="1" />
+            phone_code="1684" />
         <country
             name="Austria"
             english_name="Austria"
@@ -90,7 +90,7 @@
             name="Barbados"
             english_name="Barbados"
             name_code="bb"
-            phone_code="1" />
+            phone_code="1246" />
         <country
             name="Bangladesh"
             english_name="Bangladesh"
@@ -135,7 +135,7 @@
             name="Bermuda"
             english_name="Bermuda"
             name_code="bm"
-            phone_code="1" />
+            phone_code="1441" />
         <country
             name="Brunei Darussalam"
             english_name="Brunei Darussalam"
@@ -155,7 +155,7 @@
             name="Bahamas"
             english_name="Bahamas"
             name_code="bs"
-            phone_code="1" />
+            phone_code="1242" />
         <country
             name="Bhutan"
             english_name="Bhutan"
@@ -290,12 +290,12 @@
             name="Dominica"
             english_name="Dominica"
             name_code="dm"
-            phone_code="1" />
+            phone_code="1767" />
         <country
             name="Dominican Republic"
             english_name="Dominican Republic"
             name_code="do"
-            phone_code="1" />
+            phone_code="1849" />
         <country
             name="Algeria"
             english_name="Algeria"
@@ -375,7 +375,7 @@
             name="Grenada"
             english_name="Grenada"
             name_code="gd"
-            phone_code="1" />
+            phone_code="1473" />
         <country
             name="Georgia"
             english_name="Georgia"
@@ -440,7 +440,7 @@
             name="Guam"
             english_name="Guam"
             name_code="gu"
-            phone_code="1" />
+            phone_code="1671" />
         <country
             name="Guinea-bissau"
             english_name="Guinea-bissau"
@@ -535,7 +535,7 @@
             name="Jamaica"
             english_name="Jamaica"
             name_code="jm"
-            phone_code="1" />
+            phone_code="1876" />
         <country
             name="Jordan"
             english_name="Jordan"
@@ -575,7 +575,7 @@
             name="Saint Kitts and Nevis"
             english_name="Saint Kitts and Nevis"
             name_code="kn"
-            phone_code="1" />
+            phone_code="1869" />
         <country
             name="North Korea"
             english_name="North Korea"
@@ -595,7 +595,7 @@
             name="Cayman Islands"
             english_name="Cayman Islands"
             name_code="ky"
-            phone_code="1" />
+            phone_code="1345" />
         <country
             name="Kazakhstan"
             english_name="Kazakhstan"
@@ -615,7 +615,7 @@
             name="Saint Lucia"
             english_name="Saint Lucia"
             name_code="lc"
-            phone_code="1" />
+            phone_code="1758" />
         <country
             name="Liechtenstein"
             english_name="Liechtenstein"
@@ -720,7 +720,7 @@
             name="Northern Mariana Islands"
             english_name="Northern Mariana Islands"
             name_code="mp"
-            phone_code="1" />
+            phone_code="1670" />
         <country
             name="Martinique"
             english_name="Martinique"
@@ -735,7 +735,7 @@
             name="Montserrat"
             english_name="Montserrat"
             name_code="ms"
-            phone_code="1" />
+            phone_code="1664" />
         <country
             name="Malta"
             english_name="Malta"
@@ -885,7 +885,7 @@
             name="Puerto Rico"
             english_name="Puerto Rico"
             name_code="pr"
-            phone_code="1" />
+            phone_code="1939" />
         <country
             name="Palestine"
             english_name="Palestine"
@@ -1025,7 +1025,7 @@
             name="Sint Maarten"
             english_name="Sint Maarten"
             name_code="sx"
-            phone_code="1" />
+            phone_code="1721" />
         <country
             name="Syrian Arab Republic"
             english_name="Syrian Arab Republic"
@@ -1040,7 +1040,7 @@
             name="Turks and Caicos Islands"
             english_name="Turks and Caicos Islands"
             name_code="tc"
-            phone_code="1" />
+            phone_code="1649" />
         <country
             name="Chad"
             english_name="Chad"
@@ -1095,7 +1095,7 @@
             name="Trinidad &amp; Tobago"
             english_name="Trinidad &amp; Tobago"
             name_code="tt"
-            phone_code="1" />
+            phone_code="1868" />
         <country
             name="Tuvalu"
             english_name="Tuvalu"
@@ -1145,7 +1145,7 @@
             name="Saint Vincent &amp; The Grenadines"
             english_name="Saint Vincent &amp; The Grenadines"
             name_code="vc"
-            phone_code="1" />
+            phone_code="1784" />
         <country
             name="Venezuela, Bolivarian Republic Of"
             english_name="Venezuela, Bolivarian Republic Of"
@@ -1155,12 +1155,12 @@
             name="British Virgin Islands"
             english_name="British Virgin Islands"
             name_code="vg"
-            phone_code="1" />
+            phone_code="1284" />
         <country
             name="US Virgin Islands"
             english_name="US Virgin Islands"
             name_code="vi"
-            phone_code="1" />
+            phone_code="1340" />
         <country
             name="Vietnam"
             english_name="Vietnam"
