@@ -2,12 +2,17 @@ package com.ccc.ccp
 
 import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ccc.ccp.utils.DimensionUtils
+import io.reactivex.Single
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.observers.DisposableSingleObserver
+import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_country_code_picker.view.*
 import java.util.*
 
@@ -43,13 +48,36 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
         return mView
     }
 
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        val context = context ?: return
+        Single.create<List<Country>> {
+            it.onSuccess(
+                Country.loadCountryDataFromXML(
+                    context,
+                    arguments?.getString("LanguageCode") ?: Locale.getDefault().language
+                )
+            )
+        }.subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(object : DisposableSingleObserver<List<Country>>() {
+                override fun onSuccess(data: List<Country>) {
+                    mAdapter.updateData(data)
+                }
+
+                override fun onError(e: Throwable) {
+                    Log.e(this::class.java.simpleName, "error", e)
+                }
+            })
+    }
+
     override fun onResume() {
         super.onResume()
         val context = context ?: return
         val params = dialog!!.window!!.attributes
         params.width = (DimensionUtils.getDisplayWidth(context) / 1.15).toInt()
         params.height = (DimensionUtils.getDisplayHeight(context) / 1.7).toInt()
-        dialog!!.window!!.attributes = params as android.view.WindowManager.LayoutParams
+        dialog?.window?.attributes = params as android.view.WindowManager.LayoutParams
     }
 
     override fun onDestroy() {
@@ -84,12 +112,6 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
         val manager = LinearLayoutManager(context)
         mView.recyclerView.layoutManager = manager
         mView.recyclerView.adapter = mAdapter
-        mAdapter.updateData(
-            Country.loadCountryDataFromXML(
-                context,
-                arguments?.getString("LanguageCode") ?: Locale.getDefault().language
-            )
-        )
         mAdapter.setOnItemClickListener(this)
     }
 
