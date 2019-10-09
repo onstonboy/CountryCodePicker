@@ -3,6 +3,7 @@ package com.ccc.ccp
 import android.content.Context
 import android.graphics.Typeface
 import android.util.AttributeSet
+import android.util.Log
 import android.view.Gravity
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -10,6 +11,10 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.ccc.ccp.utils.DimensionUtils
+import io.reactivex.Single
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.observers.DisposableSingleObserver
+import io.reactivex.schedulers.Schedulers
 import java.util.*
 
 class CountryCodePicker : LinearLayout {
@@ -27,6 +32,8 @@ class CountryCodePicker : LinearLayout {
     private var mFlagWidth: Float = DimensionUtils.getDimensionWithDensity(context, R.dimen.dp_24)
     private var mCountries = ArrayList<Country>()
     private var mCountryPicked: Country? = null
+    private var mOnLoadDataComplete: OnLoadDataCompleteListener? = null
+    private var mOnRefreshDataComplete: OnRefreshDataCompleteListener? = null
 
     constructor(context: Context) : super(context)
 
@@ -68,13 +75,36 @@ class CountryCodePicker : LinearLayout {
         context, attrs, defStyleAttr
     )
 
+    fun setOnLoadDataCompleteListener(onLoadDataCompleteListener: OnLoadDataCompleteListener?) {
+        mOnLoadDataComplete = onLoadDataCompleteListener
+    }
+
+    fun setOnRefreshDataCompleteListener(onRefreshDataCompleteListener: OnRefreshDataCompleteListener?) {
+        mOnRefreshDataComplete = onRefreshDataCompleteListener
+    }
+
     fun setLanguageCode(languageCode: String) {
         mLanguageCode = languageCode
     }
 
     fun refreshDefaultData() {
         mCountries.clear()
-        mCountries.addAll(Country.loadCountryDataFromXML(context, mLanguageCode))
+        Single.create<List<Country>> {
+            it.onSuccess(
+                Country.loadCountryDataFromXML(context, mLanguageCode)
+            )
+        }.subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(object : DisposableSingleObserver<List<Country>>() {
+                override fun onSuccess(countries: List<Country>) {
+                    mCountries.addAll(countries)
+                    mOnRefreshDataComplete?.onRefreshDataComplete()
+                }
+
+                override fun onError(e: Throwable) {
+                    Log.e(this::class.java.simpleName, "error", e)
+                }
+            })
     }
 
     fun updateData(countries: List<Country>) {
@@ -84,9 +114,6 @@ class CountryCodePicker : LinearLayout {
 
     // Default country is Viet Nam
     fun getDefaultCountryPicked(): Country {
-        if (mCountries.isEmpty()) {
-            mCountries.addAll(Country.loadCountryDataFromXML(context, mLanguageCode))
-        }
         mCountries.find { it.nameCode == "vn" }?.let {
             return it
         }
@@ -97,10 +124,8 @@ class CountryCodePicker : LinearLayout {
     }
 
     fun getCountry(nameCode: String): Country {
-        if (mCountries.isEmpty()) {
-            mCountries.addAll(Country.loadCountryDataFromXML(context, mLanguageCode))
-        }
-        return mCountries.find { it.nameCode == nameCode.toLowerCase(Locale.getDefault()) } ?: getDefaultCountryPicked()
+        return mCountries.find { it.nameCode == nameCode.toLowerCase(Locale.getDefault()) }
+            ?: getDefaultCountryPicked()
     }
 
     fun getCountryPicked(): Country? {
@@ -115,7 +140,22 @@ class CountryCodePicker : LinearLayout {
     }
 
     private fun initData() {
-        mCountries.addAll(Country.loadCountryDataFromXML(context, mLanguageCode))
+        Single.create<List<Country>> {
+            it.onSuccess(
+                Country.loadCountryDataFromXML(context, mLanguageCode)
+            )
+        }.subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(object : DisposableSingleObserver<List<Country>>() {
+                override fun onSuccess(countries: List<Country>) {
+                    mCountries.addAll(countries)
+                    mOnLoadDataComplete?.onLoadDataComplete()
+                }
+
+                override fun onError(e: Throwable) {
+                    Log.e(this::class.java.simpleName, "error", e)
+                }
+            })
     }
 
     private fun initViews() {
@@ -149,5 +189,13 @@ class CountryCodePicker : LinearLayout {
 
     companion object {
         private val TAG = this::class.java.simpleName
+    }
+
+    interface OnLoadDataCompleteListener {
+        fun onLoadDataComplete()
+    }
+
+    interface OnRefreshDataCompleteListener {
+        fun onRefreshDataComplete()
     }
 }
