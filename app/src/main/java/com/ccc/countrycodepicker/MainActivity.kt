@@ -4,11 +4,13 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.ccc.ccp.Country
+import com.ccc.ccp.CountryCodePicker
 import com.ccc.ccp.OnCountryPickedListener
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
-class MainActivity : AppCompatActivity(), OnCountryPickedListener {
+class MainActivity : AppCompatActivity(), OnCountryPickedListener,
+    CountryCodePicker.OnRefreshDataCompleteListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,6 +18,10 @@ class MainActivity : AppCompatActivity(), OnCountryPickedListener {
 
         countryCodePicker.setLanguageCode(Locale.getDefault().language)
         countryCodePicker.refreshDefaultData()
+        countryCodePicker.setOnRefreshDataCompleteListener(this)
+    }
+
+    override fun onRefreshDataComplete() {
         countryCodePicker.setCountryPicked(countryCodePicker.getCountry(Locale.getDefault().country))
     }
 
