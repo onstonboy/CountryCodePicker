@@ -61,8 +61,8 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
         }.subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(object : DisposableSingleObserver<List<Country>>() {
-                override fun onSuccess(data: List<Country>) {
-                    mAdapter.updateData(data)
+                override fun onSuccess(countries: List<Country>) {
+                    mAdapter.updateData(countries)
                 }
 
                 override fun onError(e: Throwable) {
