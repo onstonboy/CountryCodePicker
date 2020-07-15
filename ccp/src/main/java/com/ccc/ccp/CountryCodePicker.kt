@@ -28,6 +28,7 @@ class CountryCodePicker : LinearLayout {
     private var mPhoneCodeColor: Int = ContextCompat.getColor(context, android.R.color.black)
     private var mLanguageCode: String = "vi"
     private var mIsShowPhoneCode: Boolean = true
+    private var mIsShowFlag: Boolean = true
     private var mFlagHeight: Float = DimensionUtils.getDimensionWithDensity(context, R.dimen.dp_24)
     private var mFlagWidth: Float = DimensionUtils.getDimensionWithDensity(context, R.dimen.dp_24)
     private var mCountries = ArrayList<Country>()
@@ -41,29 +42,31 @@ class CountryCodePicker : LinearLayout {
         val typeArray = context.obtainStyledAttributes(attrs, R.styleable.CountryCodePicker, 0, 0)
         try {
             mPhoneCodeColor = typeArray.getColor(
-                R.styleable.CountryCodePicker_phoneCodeColor,
+                R.styleable.CountryCodePicker_ccp_phoneCodeColor,
                 ContextCompat.getColor(context, android.R.color.black)
             )
             mPhoneCodeSize =
                 typeArray.getDimension(
-                    R.styleable.CountryCodePicker_phoneCodeSize,
+                    R.styleable.CountryCodePicker_ccp_phoneCodeSize,
                     DimensionUtils.getDimensionWithScaledDensity(context, R.dimen.sp_14)
                 )
             mFlagHeight =
                 typeArray.getDimension(
-                    R.styleable.CountryCodePicker_flagHeight,
+                    R.styleable.CountryCodePicker_ccp_flagHeight,
                     DimensionUtils.getDimensionWithDensity(context, R.dimen.dp_24)
                 )
             mFlagWidth =
                 typeArray.getDimension(
-                    R.styleable.CountryCodePicker_flagWidth,
+                    R.styleable.CountryCodePicker_ccp_flagWidth,
                     DimensionUtils.getDimensionWithDensity(context, R.dimen.dp_24)
                 )
             mPhoneCodeStyle =
-                typeArray.getInt(R.styleable.CountryCodePicker_phoneCodeStyle, Typeface.BOLD)
+                typeArray.getInt(R.styleable.CountryCodePicker_ccp_phoneCodeStyle, Typeface.BOLD)
             mIsShowPhoneCode =
-                typeArray.getBoolean(R.styleable.CountryCodePicker_showPhoneCode, true)
-            mLanguageCode = typeArray.getString(R.styleable.CountryCodePicker_langCode) ?: "vi"
+                typeArray.getBoolean(R.styleable.CountryCodePicker_ccp_showPhoneCode, true)
+            mIsShowFlag =
+                typeArray.getBoolean(R.styleable.CountryCodePicker_ccp_showFlag, true)
+            mLanguageCode = typeArray.getString(R.styleable.CountryCodePicker_ccp_langCode) ?: "vi"
         } finally {
             typeArray.recycle()
         }
@@ -163,6 +166,11 @@ class CountryCodePicker : LinearLayout {
             val layoutParams = ViewGroup.LayoutParams(mFlagWidth.toInt(), mFlagHeight.toInt())
             this.layoutParams = layoutParams
         }
+        val polygonView = ImageView(context).apply {
+            val layoutParams = ViewGroup.LayoutParams(resources.getDimensionPixelOffset(R.dimen.dp_8), resources.getDimensionPixelOffset(R.dimen.dp_5))
+            this.layoutParams = layoutParams
+            setImageResource(R.drawable.ic_polygon)
+        }
         mPhoneCodeTextView = TextView(context).apply {
             textSize = mPhoneCodeSize
             setTextColor(mPhoneCodeColor)
@@ -181,10 +189,13 @@ class CountryCodePicker : LinearLayout {
         }
         orientation = HORIZONTAL
         gravity = Gravity.CENTER
-        addView(mFlagImageView)
+        if (mIsShowFlag) {
+            addView(mFlagImageView)
+        }
         if (mIsShowPhoneCode) {
             addView(mPhoneCodeTextView)
         }
+        addView(polygonView)
     }
 
     companion object {

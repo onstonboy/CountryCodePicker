@@ -22,6 +22,8 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
     private lateinit var mAdapter: CountryCodeAdapter
 
     private var mOnCountryPicked: OnCountryPickedListener? = null
+    private var mIsShowFlag = true
+    private var mCountry: Country? = null
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -43,8 +45,9 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
     ): View? {
         mView = inflater.inflate(R.layout.fragment_country_code_picker, container, false)
 
-        initRecyclerView()
         initData()
+        initViews()
+        initRecyclerView()
         return mView
     }
 
@@ -63,6 +66,9 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
             .subscribe(object : DisposableSingleObserver<List<Country>>() {
                 override fun onSuccess(countries: List<Country>) {
                     mAdapter.updateData(countries)
+                    mCountry?.let {
+                        mAdapter.deleteCountry(it)
+                    }
                 }
 
                 override fun onError(e: Throwable) {
@@ -95,9 +101,19 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
     }
 
     private fun initData() {
-        val country = arguments?.getParcelable<Country>("Country") ?: return
-        updateUI(country)
-        mAdapter.deleteCountry(country)
+        mCountry = arguments?.getParcelable<Country>("Country") ?: return
+        mIsShowFlag = arguments?.getBoolean("IsShowFlag", true) ?: true
+    }
+
+    private fun initViews() {
+        mCountry?.let {
+            updateUI(it)
+        }
+        if (mIsShowFlag) {
+            mView.flagImageView.visibility = View.VISIBLE
+        } else {
+            mView.flagImageView.visibility = View.GONE
+        }
     }
 
     private fun updateUI(country: Country) {
@@ -112,17 +128,23 @@ class CountryCodePickerFragment : DialogFragment(), CountryCodeAdapter.OnItemCli
         val manager = LinearLayoutManager(context)
         mView.recyclerView.layoutManager = manager
         mView.recyclerView.adapter = mAdapter
+        mAdapter.setShowFlag(mIsShowFlag)
         mAdapter.setOnItemClickListener(this)
     }
 
     companion object {
         var TAG: String = this::class.java.simpleName
 
-        fun getInstance(country: Country, langCode: String): CountryCodePickerFragment {
+        fun getInstance(
+            country: Country,
+            langCode: String,
+            isShowFlag: Boolean = true
+        ): CountryCodePickerFragment {
             val fragment = CountryCodePickerFragment()
             val bundle = Bundle()
             bundle.putParcelable("Country", country)
             bundle.putString("LanguageCode", langCode)
+            bundle.putBoolean("IsShowFlag", isShowFlag)
             fragment.arguments = bundle
             return fragment
         }
