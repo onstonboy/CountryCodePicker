@@ -10,6 +10,7 @@ class CountryCodeAdapter : RecyclerView.Adapter<CountryCodeAdapter.ViewHolder>()
 
     var mCountries = ArrayList<Country>()
     private var mOnItemClick: OnItemClickListener? = null
+    private var mIsShowFlag = true;
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
@@ -22,7 +23,7 @@ class CountryCodeAdapter : RecyclerView.Adapter<CountryCodeAdapter.ViewHolder>()
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(mCountries[position])
+        holder.bind(mCountries[position], mIsShowFlag)
     }
 
     fun setOnItemClickListener(onItemClick: OnItemClickListener?) {
@@ -42,17 +43,25 @@ class CountryCodeAdapter : RecyclerView.Adapter<CountryCodeAdapter.ViewHolder>()
         notifyItemRemoved(index)
     }
 
+    fun setShowFlag(boolean: Boolean) {
+        mIsShowFlag = boolean
+    }
+
     class ViewHolder(
         itemView: View,
         onItemClick: OnItemClickListener?
     ) : RecyclerView.ViewHolder(itemView) {
         private var mOnItemClick = onItemClick
 
-        fun bind(country: Country) {
+        fun bind(country: Country, isShowFlag: Boolean) {
             itemView.flagImageView.setImageResource(Country.getFlagMasterResID(country))
             itemView.nameTextView.text = country.name
             itemView.phoneCodeTextView.text = country.phoneCode
-
+            if (isShowFlag) {
+                itemView.flagImageView.visibility = View.VISIBLE
+            } else {
+                itemView.flagImageView.visibility = View.GONE
+            }
             itemView.setOnClickListener {
                 mOnItemClick?.onItemClick(country)
             }
