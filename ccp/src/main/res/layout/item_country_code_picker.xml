@@ -1,46 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/contentLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingStart="@dimen/dp_16"
-    android:paddingTop="8dp"
-    android:paddingEnd="@dimen/dp_16"
-    android:paddingBottom="8dp">
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/flagImageView"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginStart="@dimen/dp_16"
         android:src="@drawable/flag_vietnam"
+        app:layout_constraintBottom_toBottomOf="@+id/phoneCodeTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phoneCodeTextView"
         tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/nameTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:layout_marginStart="@dimen/dp_16"
         android:layout_marginEnd="@dimen/dp_8"
-        android:layout_toStartOf="@+id/phoneCodeTextView"
-        android:layout_toEndOf="@+id/flagImageView"
         android:ellipsize="end"
         android:maxLines="1"
         android:textColor="@android:color/black"
-        android:textSize="16sp" />
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintBottom_toBottomOf="@+id/flagImageView"
+        app:layout_constraintEnd_toStartOf="@+id/phoneCodeTextView"
+        app:layout_constraintStart_toEndOf="@+id/flagImageView"
+        app:layout_constraintTop_toTopOf="@+id/flagImageView" />
 
     <TextView
         android:id="@+id/phoneCodeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_8"
         android:ellipsize="end"
         android:maxLines="1"
         android:textColor="@android:color/black"
-        android:textSize="16sp" />
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginEnd="@dimen/dp_16" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

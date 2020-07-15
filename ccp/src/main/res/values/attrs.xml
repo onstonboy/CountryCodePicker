@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CountryCodePicker">
-        <attr name="phoneCodeColor" format="color"/>
-        <attr name="phoneCodeSize" format="dimension"/>
-        <attr name="phoneCodeStyle" format="reference"/>
-        <attr name="showPhoneCode" format="boolean"/>
-        <attr name="flagHeight" format="dimension"/>
-        <attr name="flagWidth" format="dimension"/>
-        <attr name="langCode" format="string"/>
+        <attr name="ccp_phoneCodeColor" format="color"/>
+        <attr name="ccp_phoneCodeSize" format="dimension"/>
+        <attr name="ccp_phoneCodeStyle" format="reference"/>
+        <attr name="ccp_showPhoneCode" format="boolean"/>
+        <attr name="ccp_showFlag" format="boolean"/>
+        <attr name="ccp_flagHeight" format="dimension"/>
+        <attr name="ccp_flagWidth" format="dimension"/>
+        <attr name="ccp_langCode" format="string"/>
     </declare-styleable>
 
     <style name="scrollbar_shape_style">

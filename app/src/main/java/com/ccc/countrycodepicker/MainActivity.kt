@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), OnCountryPickedListener,
         val country = countryCodePicker.getCountryPicked() ?: return
         val fm = supportFragmentManager
         val newFragment =
-            com.ccc.ccp.CountryCodePickerFragment.getInstance(country, Locale.getDefault().language)
+            com.ccc.ccp.CountryCodePickerFragment.getInstance(country, Locale.getDefault().language, false)
         newFragment.show(fm, com.ccc.ccp.CountryCodePickerFragment.TAG)
     }
 }
